@@ -1,0 +1,62 @@
+.primeira-secao{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.507) 10%,rgb(0, 0, 0)100%),url('../assets/background-man.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.primeira-secao .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.primeira-secao h1{
+    font-family: 'Bangers', cursive;
+    color: rgb(56, 149, 186);
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+
+.primeira-secao h2{
+    font-family: 'Nothing You Could Do', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+.btns button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    background-color: rgb(56, 149, 186);
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 8rem;
+    transition: all 400ms ease-in-out;
+}
+
+.btns button:hover{
+    background: transparent;
+    border: 2px solid rgb(56, 149, 186);
+    color: aliceblue;
+}
+
+.btns{
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+@import url('reset.css');
+@import url('fontes.css');
+@import url('cabecalho.css');
+@import url('secao-inicio.css');
+@import url('secao-sobre.css');
+@import url('secao-treinos.css');
+@import url('secao-planos.css');
+@import url('footer.css');
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}

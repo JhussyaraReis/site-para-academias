@@ -1,0 +1,40 @@
+.informacoes-academia{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(56, 149, 186);
+    font-size: 1.6rem;
+    overflow: hidden;
+}
+
+.informacoes-academia .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.informacoes-academia .infoaulas{
+    gap: 5px;
+}
+
+
+.informacoes-academia .contatos{
+    gap: 5px;
+}
+
+.informacoes-academia .endereco{
+    width: 300px;
+    line-height: 25px;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: rgb(56, 149, 186);
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 10px;
+}
